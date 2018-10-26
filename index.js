@@ -19,7 +19,7 @@
         if(message.channel.type === "dm") return;
       
         let prefix = laconfig.prefix
-   
+        let messageArray = message.contest.join(" ");
         let cmd = messageArray[0]
         let args = messageArray.slice(1);
 
