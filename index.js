@@ -22,6 +22,10 @@
         let messageArray = message.contest.join(" ");
         let cmd = messageArray[0]
         let args = messageArray.slice(1);
+          
+          let commandfile = bot.commands.get(cmd.slice(prefix.lenght));
+   if (commandfile) commandfile.run(bot,message,args);
+
 
 
           
