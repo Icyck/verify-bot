@@ -7,7 +7,7 @@
     robot.on("ready", () => {
         robot.user.setPresence({
             game: { 
-                name: 'Icy Day',
+                name: '-verify',
                 type: 'WATCHING'
             },
             status: "dnd"
